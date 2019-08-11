@@ -1,0 +1,226 @@
+% preambulo
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[shortlabels]{enumitem} % para usar enumerate con letras
+\usepackage{commath} % para usar \norm{} 
+\usepackage{mathabx} % para usar \check{} para versores
+\usepackage{siunitx} % para usar \ang{}
+\usepackage{stmaryrd} % para usar \sslash
+
+\title{\'Algebra y Geometr\'ia Anal\'itica} % crea el titulo
+\date{}
+
+\begin{document} % inicia el documento
+
+\maketitle % imprime el titulo
+
+\begin{enumerate}
+\setcounter{enumi}{0} % inicia el contador
+
+% Ejercicio 1
+\item Hallar las ecuaciones de la recta en su forma sim\'etrica, param\'etrica vectorial y param\'etrica escalar para los siguientes elementos geom\'etricos dados:
+
+\begin{enumerate}[a)]
+\item Los puntos $P_{1} = (-1, 3)$ y $S = (2, 5)$
+\item El punto $P_{2} = (-1, 4)$ y su direcci\'on paralela al vector $\vec{d} = (4, -1)$
+\end{enumerate}
+
+% Ejercicio 2
+\item Hallar las ecuaciones de la recta en su forma sim\'etrica, param\'etrica vectorial y param\'etrica escalar para los siguientes elementos geom\'etricos dados:
+
+\begin{enumerate}[a)]
+\item Los puntos $P_{1} = (-3, 2, 1)$ y $P_{2} = (1, 5, 4)$
+\item Los puntos $Q_{1} = (1, 1, 0)$ y $Q_{2} = (1, -3, 2)$
+\item El punto $P_{2} = (1, 4, 2)$ y su direcci\'on paralela al vector \linebreak $\vec{d} = (-2, 2, 3)$
+\item El punto $A_{1} = (3, -2, 1)$ y el vector director $\vec{s} = (5, 0, 2)$
+\item El punto $B_{1} = (3, 2, 4)$ y con direcci\'on perpendicular al vector $\vec{d} = \check{i} + 2 \check{j} + \check{k}$
+\end{enumerate}
+
+% Ejercicio 3
+\item Haciendo uso de GeoGebra resuelva los puntos 1) y 2) anteriores.
+
+% Ejercicio 4
+\item Encontrar puntos que pertenezcan a las siguientes rectas:
+
+\begin{enumerate}[a)]
+\item $(x, y, z) = (1, -3, 2) + k (1, 1, 4)$
+\item $\begin{cases}
+  x = 1 + 2k \\
+  y = -2 + 3k \\
+  z = 4 + 2k
+\end{cases}$
+\item $\frac{x + 1}{3} = y + 1 = z$
+\item $\frac{x + 2}{4} = y - 2 = z + 3$
+\end{enumerate}
+
+% Ejercicio 5
+\item Dados los siguientes puntos $P = (1, -1, 2)$ y $Q = (0, 2, 3)$. ¿A cu\'al o cu\'ales de las siguientes rectas pertenecen?
+
+\begin{enumerate}[a)]
+\item $(x, y, z) = (2, 3, 4) + k (1, -4, 2)$
+\item $\begin{cases}
+  x = 1 + k \\
+  y = 4 -2 k \\
+  z = 3 + k
+\end{cases}$
+\item $\frac{x + 1}{2} = \frac{y + 3}{4} = \frac{z - 1}{2}$
+\end{enumerate}
+
+% Ejercicio 6
+\item Haciendo uso de GeoGebra resuelva el punto 5).
+
+% Ejercicio 7
+\item Hallar la ecuaci\'on normal y general del plano dados los siguientes elementos:
+
+\begin{enumerate}[a)]
+\item El punto $P_{1} = (1, 1, 3)$ y el vector normal $\vec{n} = (-1, 4, 3)$
+\item El punto $P_{2} = (-1, 4, 5)$ y el vector normal $\vec{n} = 2 \check{i} + \check{j}$
+\end{enumerate}
+
+% Ejercicio 8
+\item Encontrar la ecuaci\'on param\'etrica vectorial y escalar del plano que pasa por tres puntos:
+
+\begin{enumerate}[a)]
+\item $P_{1} = (1, 1, 2)$, $P_{2} = (5, 4, 3)$ y $P_{3} = (4, 2, 1)$
+\end{enumerate}
+
+% Ejercicio 9
+\item Encontrar la ecuaci\'on normal del plano a partir de los puntos \linebreak $P_{1} = (1, 1, 2)$, $P_{2} = (-1, 0, 5)$ y $P_{3} = (2, 6, -1)$
+
+% Ejercicio 10
+\item Dados los siguientes puntos $P = (1, -1, 2)$ y $Q = (3, 2, 5)$. ¿A cu\'al o cu\'ales de los siguientes planos pertenecen? 
+
+\begin{enumerate}[a)]
+\item $(x - 2, y + 3, z - 1) * (1, 4, 2) = 0$
+\item $2x - 3y + 5z = 2$
+\item $x + 3y = 0$
+\end{enumerate}
+
+% Ejercicio 11
+\item Dados los siguientes planos encontrar puntos que pertenezcan a ellos:
+
+\begin{enumerate}[a)]
+\item $2x + y - 5z = 4$
+\item $-y + z = 2$
+\item $x + 3z = 0$
+\item $(x - 1, y + 3, z - 2) * (-1, 0 , 5) = 0$
+\end{enumerate}
+
+% Ejercicio 12
+\item Dado el plano $-x + y = 0$ y la recta $(x, y, z) = (1, -1, 0) + k (2, 1, 3)$ indicar si son:
+
+\begin{enumerate}[a)]
+\item Paralelos
+\item Perpendiculares
+\item Ni paralelos ni perpendiculares
+\end{enumerate}
+
+% Ejercicio 13
+\item Dados los siguientes planos $2x + 3y - z = 1$ y $4z = -1$, indicar si son:
+
+\begin{enumerate}[a)]
+\item Paralelos
+\item Perpendiculares
+\item Ni paralelos ni perpendiculares
+\end{enumerate}
+
+% Ejercicio 14
+\item Dados los siguientes planos encontrar el \'angulo entre ellos:
+
+\begin{enumerate}[a)]
+\item $\begin{cases}
+  \pi \colon x - y + 2z = 2 \\
+  \alpha \colon -x - 2y + 3z = 1
+\end{cases}$
+\item $\begin{cases}
+  \pi \colon x + 2y  = 0 \\
+  \alpha \colon -3y + 4z = 0
+\end{cases}$  
+\item $\begin{cases}
+  \pi \colon x = 0 \\
+  \alpha \colon y - 2z = 1
+\end{cases}$
+\end{enumerate}
+
+% Ejercicio 15
+\item Dadas las siguientes rectas encontrar el \'angulo entre ellas:
+
+\begin{enumerate}[a)]
+\item $\begin{cases}
+  (x, y, z) = (1, -1, 3) + k (2, 0, -1) \\
+  \frac{x + 3}{2} = y = \frac{z - 1}{5} 
+\end{cases}$
+\item $\begin{cases}
+ \begin{cases}
+  x = 1 + 3k \\
+  y = k \\
+  z = 2 + 2k
+ \end{cases} \\
+  \frac{x - 1}{2} = 2y = z + 1 
+\end{cases}$
+\end{enumerate}
+
+% Ejercicio 16
+\item Dados los siguientes planos y rectas encontrar el \'angulo entre ellos:
+
+\begin{enumerate}[a)]
+\item $\begin{cases}
+  -2x + y - z = 2 \\
+  (x, y, z) = (1, 1, 5) + k (1, 3, 1)
+\end{cases}$  
+\item $\begin{cases}
+  x - 2y + 3z = 0 \\
+  x + 1 = \frac{y - 3}{8} = z
+\end{cases}$
+\end{enumerate}
+
+% Ejercicio 17
+\item Encontrar la distancia del punto $P = (2, 5, 3)$ al plano \linebreak $-2x + y + 3z = 0$
+
+% Ejercicio 18
+\item Encontrar la distancia entre la recta $(x, y, z) = (1, 1, 5) + k (-2, 1, 3)$ y el punto $P = (4, 3, 2)$
+
+% Ejercicio 19
+\item Encontrar las distancias entre los siguientes entes geom\'etricos:
+
+\begin{enumerate}[a)]
+\item El plano $-3x + 2y + z = 1$ y la recta ($x, y, z) = (1, -5, 1) + k (2, 2, 2)$
+\item El plano $-x + 2y - z = 4$ y el plano $-2x + 4y - 2z = 0$
+\item La recta $(x, y, z) = (3, -2, 1) + k (2, 1, 3)$ y la recta \linebreak $\frac{x - 2}{4} = \frac{y - 1}{2} = \frac{z}{6}$
+\item El plano $-2x + y = 0$ y el plano $-4x + 3y = 1$
+\end{enumerate}
+
+% Ejercicio 20
+\item Debate con tus compa\~neros sobre la veracidad o falsedad de las si\-guien\-tes afirmaciones. Para que tu respuesta sea v\'alida debes justificarla adecuadamente, por lo cual puedes emplear definiciones, ejemplos, gr\'aficos, c\'alculos, etc.
+
+\begin{enumerate}[a)]
+\item El vector director de una recta (de $\mathbb{R}^{2}$ o $\mathbb{R}^{3}$ ) que pasa por dos puntos conocidos $A$ y $B$, puede hallarse como $A-B$.
+\item Si $(x, y, z) = (1, x + 2, -y)$ entonces $x = 1, y = 3$ y $z = -3$
+\item El punto $P = (5, 3, 1)$ no pertenece a la recta \linebreak $(x, y, z) = (3, 1,-2) + k (2, 1, 3)$
+\item Las rectas $y = 3x - 2$ y $(x, y) = (1, 2) + k (-1, 3)$ son paralelas.
+\item Las rectas $\frac{(x - 1)}{3} = \frac{(y - 1)}{2} = \frac{(z - 1)}{1}$ y $(x, y, z) = (1, 1, 1) + k (-1, 0, 3)$ son perpendiculares.
+\item Siempre puede escribirse la ecuación sim\'etrica de la recta (en $\mathbb{R}^{2}$ o $\mathbb{R}^{3}$ ).
+\item La recta $\frac{(x + 3)}{3} = \frac{(y - 2)}{2} = \frac{(z - 1)}{1}$ corta al plano $yz$ en el punto $(0, 2, 4)$, al plano $xz$ en $(-6, 0, 0)$ y al plano $xy$ en $(0, 0,1)$.
+\item Un plano queda completamente determinado por dos de sus puntos y un vector paralelo a \'el.
+\item Un plano queda completamente determinado por tres cualesquiera de sus puntos.
+\item Un plano queda completamente determinado por uno de sus puntos y un vector perpendicular a \'el.
+\item Si nos dan las ecuaciones de dos rectas que se cortan, podemos hallar sin inconvenientes la ecuaci\'on del plano que determinan.
+\item Si nos dan las ecuaciones de dos rectas paralelas, tenemos elementos suficientes como para hallar las ecuaciones del plano que determinan.
+\item Si nos dan las ecuaciones de dos rectas cualesquiera en el espacio, podemos hallar sin inconvenientes la ecuaci\'on del plano que determinan.
+\item Un plano es paralelo a una recta cuando cualquier vector normal al plano es paralelo al vector director de la recta.
+\item Dos planos paralelos tienen vectores normales que son uno m\'ultiplo escalar del otro.
+\item Dos planos perpendiculares tienen vectores normales paralelos.
+\item Una recta es perpendicular a un plano cuando su vector director es paralelo al plano.
+\item Si una recta es perpendicular a un plano, entonces cualquier vector paralelo a la recta es perpendicular a cualquier vector paralelo al plano.
+\item Dos vectores no colineales determinan una familia de planos.
+\item Dos vectores cualesquiera determinan una familia de planos.
+\item El \'angulo entre dos rectas puede calcularse mediante el \'angulo entre los vectores directores de las rectas.
+\end{enumerate}
+
+\end{enumerate} % cierra la enumeracion de los ejercicios
+
+\end{document} % cierra el documento
